@@ -11,9 +11,9 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_instances"></a> [instances](#module\_instances) | git::https://github.com/spiffyvmlab/terraform-backup.git//modules/ec2 | n/a |
-| <a name="module_key_pair"></a> [key\_pair](#module\_key\_pair) | git::https://github.com/spiffyvmlab/terraform-backup.git//modules/keypair | n/a |
-| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | git::https://github.com/spiffyvmlab/terraform-backup.git//modules/security_group | n/a |
+| <a name="module_instances"></a> [instances](#module\_instances) | git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/ec2 | n/a |
+| <a name="module_key_pair"></a> [key\_pair](#module\_key\_pair) | git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/keypair | n/a |
+| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/security_group | n/a |
 
 ## Resources
 
