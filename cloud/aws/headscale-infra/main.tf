@@ -1,5 +1,5 @@
 module "instances" {
-    source = "git::https://github.com/spiffyvmlab/terraform-backup.git//modules/ec2"
+    source = "git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/ec2"
     
     for_each = { for inst in var.instances : inst.instance_name => inst }
 
@@ -20,7 +20,7 @@ module "instances" {
 }
 
 module "security_group" {
-    source = "git::https://github.com/spiffyvmlab/terraform-backup.git//modules/security_group"
+    source = "git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/security_group"
 
     sg_name = var.sg_name
     sg_description = var.sg_description
@@ -61,7 +61,7 @@ module "security_group" {
 }
 
 module "key_pair" {
-    source = "git::https://github.com/spiffyvmlab/terraform-backup.git//modules/keypair"
+    source = "git::https://github.com/JustYAMLGuys/infrastracture.git//cloud/aws/modules/keypair"
 
     key_name = var.key_name
     public_key = var.public_key
