@@ -1,0 +1,9 @@
+**/.DS_Store
+**/.terraform
+**/..terraform.lock.hcl
+**/.git
+.git
+.terraform
+.backup
+.tflint.hcl
+.infracost
